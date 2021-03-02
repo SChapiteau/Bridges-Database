@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Company] (
+    [Id]    UNIQUEIDENTIFIER NOT NULL,
+    [Name]  VARCHAR (150)    NOT NULL,
+    [SIRET] VARCHAR (50)     NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
